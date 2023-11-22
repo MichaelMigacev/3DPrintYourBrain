@@ -23,5 +23,37 @@ LINK TO THE GITHUB REPOS
 ### 1. Installing Docker Desktop
 See that in the [wiki!](https://github.com/MichaelMigacev/3DPrintYourBrain/wiki#installing-docker-desktop "wiki page")
 ### 2. Pulling the Docker Image
-After installing Docker you are now ready to pull the image onto your computer. For that open Docker Desktop and go to the searchbar.
+Image name:
+```
+michamigacev/printyourbrain
+```
+Details in [wiki!](https://github.com/MichaelMigacev/3DPrintYourBrain/wiki#pulling-the-docker-image "wiki page")
+### 3. Downloading the Freesurfer License
+Freesurfer only runs with a license, but fret not! The license is free to obtain. \
+[Here](https://surfer.nmr.mgh.harvard.edu/registration.html "link to the license") you can get one!
+Make sure to remember where you saved it, it is going to come in handy later.
+### 4. Pulling the repository
+Create a place on your PC where you want to have the repository\
+and pull this repository on your local machine.
+```
+git clone https://github.com/MichaelMigacev/3DPrintYourBrain
+```
+### 5. Setting up your files
+Because a script will be running it is impoortant to replicate the intended folder structure like this:
+```
+3DPrintYourBrain
+│   README.md
+│   LICENSE
+│
+└───pyb_mount
+|   └───Scripts
+│       │   Script.sh # this is the script, instructions inside of it!
+│     
+|   └───subject00X # your subject
+|       |
+|       └───input # this is where you put your '*****T1w.nii.gz' file
+|           |   *****T1w.nii.gz # your T1 image (please replicate the ending or edit the script)
+|       └───output # this is where your future output will be
+```
+
 
