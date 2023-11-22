@@ -21,3 +21,7 @@ LINK TO THE GITHUB REPOS
 8. Using Meshlab
 
 ### 1. Installing Docker Desktop
+See that in the [wiki!](https://github.com/MichaelMigacev/3DPrintYourBrain/wiki#installing-docker-desktop "wiki page")
+### 2. Pulling the Docker Image
+After installing Docker you are now ready to pull the image onto your computer. For that open Docker Desktop and go to the searchbar.
+
