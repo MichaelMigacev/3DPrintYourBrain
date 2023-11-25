@@ -75,7 +75,7 @@ Now you can better see the script, it contains all the instructions to run in.
 
 After you have ran the script you should have all necessary files in:\
 subject -> output -> print\
-I recommend you to copy these files to somewhere else to have a backup copy for the next step.\ 
+I recommend you to copy these files to somewhere else to have a backup copy for the next step.
 
 ### 8. Smoothing the Brain
 To have the best quality brain it is best practice to inspect it in Meshlab.
