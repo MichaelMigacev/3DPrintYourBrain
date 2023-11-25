@@ -71,7 +71,7 @@ Now that the container is running we can prepare the script.
 Before you go around and start digging in the terminal I recommend you to\
 open pyb_mount folder on your system in a code editor. This is possible because\
 you have created a mount/volume linked to your actual file.\
-Now you can better see the script, it contains all the instructions to run in.\
+Now you can better see the script, it contains all the instructions to run in.
 
 After you have ran the script you should have all necessary files in:\
 subject -> output -> print\
