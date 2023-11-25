@@ -15,9 +15,9 @@ LINK TO THE GITHUB REPOS
 2. Pulling the Docker Image
 3. Downloading the Freesurfer Licence
 4. Pulling the Repository
-5. Setting up the files
-6. Running the container
-7. Running/Setting up the script
+5. Setting up the Files
+6. Running the Container
+7. Running/Setting up the Script
 8. Using Meshlab
 
 ### 1. Installing Docker Desktop
@@ -38,8 +38,8 @@ and pull this repository on your local machine.
 ```
 git clone https://github.com/MichaelMigacev/3DPrintYourBrain
 ```
-### 5. Setting up your files
-Because a script will be running it is impoortant to replicate the intended folder structure like this:
+### 5. Setting up your Files
+Because a script will be running it is important to replicate the intended folder structure like this:
 ```
 3DPrintYourBrain
 │   README.md
@@ -55,5 +55,31 @@ Because a script will be running it is impoortant to replicate the intended fold
 |           |   *****T1w.nii.gz # your T1 image (please replicate the ending or edit the script)
 |       └───output # this is where your future output will be
 ```
+### 6. Running the Container
+Wow, that was fast, you are almost there!\
+To run an interactive container we use the following command:
+*Don't forget to change the path according to your file locations!*
+```
+docker run --platform linux/x86_64 -it -v "/path/to/pyb_mount:/home" -v "/path/to/your/freesurfer/license.txt:/opt/freesurfer-6.0.0/license.txt" michamigacev/printyourbrain:latest
+```
+*Remark: usually you can mount files without "", but my windows userame has a space in it \
+and this is how you make that work regardless*
+
+Now that the container is running we can prepare the script.
+
+### 7. Running the Script
+Before you go around and start digging in the terminal I recommend you to\
+open pyb_mount folder on your system in a code editor. This is possible because\
+you have created a mount/volume linked to your actual file.\
+Now you can better see the script, it contains all the instructions to run in.\
+
+After you have ran the script you should have all necessary files in:\
+subject -> output -> print\
+I recommend you to copy these files to somewhere else to have a backup copy for the next step.\ 
+
+### 8. Smoothing the Brain
+To have the best quality brain it is best practice to inspect it in Meshlab.
+You can install Meshlab [here.](https://www.meshlab.net/#download "Download Page")
+
 
 
