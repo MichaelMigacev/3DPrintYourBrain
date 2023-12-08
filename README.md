@@ -80,8 +80,8 @@ subject -> output -> print
 I recommend you to copy these files to somewhere else to have a backup copy for the next step.
 
 ### 8. Smoothing the Brain
-To have the best quality brain it is best practice to inspect it in Meshlab.
-You can install Meshlab [here.](https://www.meshlab.net/#download "Download Page")
+To have the best quality brain it is best practice to inspect it in Meshlab.\
+You can install Meshlab [here.](https://www.meshlab.net/#download "Download Page")\
 
-
+Please look in the [wiki](https://github.com/MichaelMigacev/3DPrintYourBrain/wiki#working-in-meshlab "wiki page") for further details.
 
