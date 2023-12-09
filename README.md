@@ -73,7 +73,7 @@ open pyb_mount folder on your system in a code editor. This is possible because\
 you have created a mount/volume linked to your actual file.\
 Now you can better see the script, it contains all the instructions to run in.
 
-After you have ran the script you should have all necessary files in:\
+After you have ran the script you should have all necessary files in:
 ```
 subject -> output -> print
 ```
@@ -81,7 +81,7 @@ I recommend you to copy these files to somewhere else to have a backup copy for 
 
 ### 8. Smoothing the Brain
 To have the best quality brain it is best practice to inspect it in Meshlab.\
-You can install Meshlab [here.](https://www.meshlab.net/#download "Download Page")\
+You can install Meshlab [here.](https://www.meshlab.net/#download "Download Page")
 
 Please look in the [wiki](https://github.com/MichaelMigacev/3DPrintYourBrain/wiki#working-in-meshlab "wiki page") for further details.
 
