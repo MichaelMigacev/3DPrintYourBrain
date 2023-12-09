@@ -43,7 +43,7 @@ Because a script will be running it is important to replicate the intended folde
 ```
 3DPrintYourBrain
 │   README.md
-│   LICENSE
+│   license.txt
 │
 └───pyb_mount
 |   └───Scripts
