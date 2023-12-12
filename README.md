@@ -1,9 +1,9 @@
 # 3DPrintYourBrain
 ### 3D Print Your Brain from T1 weighted MRI data
 #### This guide aims to be the complete tutorial on how to get your T1 weighted image from a ".nii.gz" format into a handy ".stl" file format. I have tried my best to make the script run on every OS.
-Despite my occasional genius I would not have gotten as far as I did, without the help of people that came before me. So as a responsible developer I think it only tell you check out these repositories and people as they have assisted me each in their own unique way.
-First working implementation at FU Berlin by [Marianna Schmidt](https://www.researchgate.net/profile/Marianna-Schmidt)
-[The first github of the project at FU Berlin](https://github.com/printyourbrain)
+Despite my occasional genius I would not have gotten as far as I did, without the help of people that came before me. So as a responsible developer I think it only tell you check out these repositories and people as they have assisted me each in their own unique way.\
+First working implementation at FU Berlin by [Marianna Schmidt](https://www.researchgate.net/profile/Marianna-Schmidt)\
+[The first github of the project at FU Berlin](https://github.com/printyourbrain)\
 [Good Ressource on the topic!](https://github.com/miykael/3dprintyourbrain)
 #### Used Tools will be:
 - Docker Desktop
