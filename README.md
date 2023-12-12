@@ -55,6 +55,7 @@ Because a script will be running it is important to replicate the intended folde
 |       |
 |       └───input # this is where you put your '*****T1w.nii.gz' file
 |           |   *****T1w.nii.gz # your T1 image (please replicate the ending or edit the script)
+|           
 |       └───output # this is where your future output will be
 ```
 ### 6. Running the Container
