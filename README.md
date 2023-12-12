@@ -10,7 +10,7 @@ First working implementation at FU Berlin by [Marianna Schmidt](https://www.rese
 - Freesurfer
 - FSL
 - Meshlab
-- and a *cool* bash scrip tieing it all together
+- and a *cool* bash script tieing it all together
 
 ## Table of Contents
 1. Installing Docker Desktop
