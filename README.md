@@ -74,9 +74,9 @@ Now that the container is running we can prepare the script.
 Before you go around and start digging in the terminal I recommend you to\
 open pyb_mount folder on your system in a code editor. This is possible because\
 you have created a mount/volume linked to your actual file.\
-Now you can better see the script, it contains all the instructions to run it.\
+Now you can better see the script, it contains all the instructions to run it.
 
-This takes about 2 - 7 hours (depending on your hardware).\
+This takes about 2 - 7 hours (depending on your hardware).
 
 After you have ran the script you should have all necessary files in:
 ```
